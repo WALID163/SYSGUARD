@@ -12,6 +12,15 @@ body {
     margin: 0 auto;
     background-color: #ffffff;
   }
+
+  .badge{
+    display: inline-block;
+    margin: 0 auto;
+    background-color: #3b82f6;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
   
   /* HEADER */
   .header {
@@ -101,6 +110,13 @@ body {
     text-align: center;
   }  
   .img1 {
-    width: 400px;
+    display: block;
+    width: 900px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 0 auto;
+
+
     
   }
