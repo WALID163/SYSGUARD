@@ -1,0 +1,106 @@
+/* RESET DE BASE */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f3f4f6;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* CONTAINER NEWSLETTER */
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+  }
+  
+  /* HEADER */
+  .header {
+    background-color: #1E3A8A;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-family: Montserrat, Arial, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  /* TITRES */
+  .title {
+    font-family: Montserrat, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    padding: 16px;
+  }
+  
+  /* TEXTE */
+  .text {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333333;
+    padding: 16px;
+  }
+  
+  /* BOUTON CTA */
+  .btn-cta {
+    display: inline-block;
+    background-color: #10B981;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  /* IMAGE */
+  .image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* FOOTER */
+  .footer {
+    background-color: #1E3A8A;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  /* LIENS FOOTER */
+  .footer a {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  
+  /* RESPONSIVE */
+  @media screen and (max-width: 650px) {
+    .container {
+      width: 100%;
+    }
+  
+    .header {
+      font-size: 24px;
+    }
+  
+    .title {
+      font-size: 20px;
+    }
+  }
+  /*MODIF APRES LE PRESET*/
+  h1{
+    color: #1E3A8A;
+    
+  }
+  header{
+    text-align: center;
+  }
+  footer{
+    text-align: center;
+  }  
+  .img1 {
+    width: 400px;
+    
+  }
